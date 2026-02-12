@@ -1,0 +1,63 @@
+aiohappyeyeballs==2.6.1
+aiohttp==3.13.3
+aiosignal==1.4.0
+asgiref==3.11.1
+attrs==25.4.0
+certifi==2026.1.4
+charset-normalizer==3.4.4
+dateparser==1.3.0
+Django==6.0.2
+frozenlist==1.8.0
+idna==3.11
+multidict==6.7.1
+propcache==0.4.1
+pycryptodome==3.23.0
+python-binance==1.0.19
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+pytz==2025.2
+regex==2026.1.15
+requests==2.32.5
+six==1.17.0
+sqlparse==0.5.5
+typing_extensions==4.15.0
+tzdata==2025.3
+tzlocal==5.3.1
+ujson==5.11.0
+urllib3==2.6.3
+websockets==16.0
+yarl==1.22.0
+
+
+
+HMAC
+trading-bot-test
+Scan to get address
+API Key
+.........
+Secret Key
+.........
+API restrictions
+Enable Reading
+Enable Spot & Margin Trading
+Enable Futures
+
+
+"""
+trading_bot.log
+To open it:- 
+notepad trading_bot.log 
+
+"""
+
+"""
+Buy limit :- python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
+
+Buy limit :- python cli.py --symbol BTCUSDT --side BUY --type LIMIT --quantity 0.002 --price 60000
+
+Sell limit :- python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 60000
+
+Sell limit :- python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 65000
+
+"""
+

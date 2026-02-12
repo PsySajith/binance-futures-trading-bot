@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ## API Key Configuration
 
-In `cli.py`, set your credentials (use placeholders before committing):
+In `cli.py`, set your credentials (use your binance-api in placeholders before use):
 
 ```python
 API_KEY = "YOUR_TESTNET_API_KEY"
